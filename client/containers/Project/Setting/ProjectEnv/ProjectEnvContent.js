@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './index.scss';
+import './index.css';
 import { Icon, Row, Col, Form, Input, Select, Button, AutoComplete, Tooltip } from 'antd';
 const FormItem = Form.Item;
 const Option = Select.Option;
@@ -350,7 +350,7 @@ class ProjectEnvContent extends Component {
               style={{ marginLeft: 8 }}
             >
               <Tooltip title="点击查看文档">
-                <Icon type="question-circle-o" style={{fontSize: '13px'}}/>
+                <Icon type="question-circle-o" style={{ fontSize: '13px' }} />
               </Tooltip>
             </a>
           </h3>

@@ -15,7 +15,7 @@ import {
 } from 'antd';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import './ProjectData.scss';
+import './ProjectData.css';
 import axios from 'axios';
 
 import URL from 'url';
@@ -485,7 +485,7 @@ class ProjectData extends Component {
                 {this.state.curExportType ? (
                   <div>
                     <p className="export-desc">{exportDataModule[this.state.curExportType].desc}</p>
-                    <a 
+                    <a
                       target="_blank"
                       rel="noopener noreferrer"
                       href={exportHref}>

@@ -13,7 +13,7 @@ const jsondiffpatch = require('jsondiffpatch/dist/jsondiffpatch.umd.js');
 const formattersHtml = jsondiffpatch.formatters.html;
 import 'jsondiffpatch/dist/formatters-styles/annotated.css';
 import 'jsondiffpatch/dist/formatters-styles/html.css';
-import './TimeLine.scss';
+import './TimeLine.css';
 import { timeago } from '../../../common/utils.js';
 
 // const Option = AutoComplete.Option;
@@ -95,7 +95,7 @@ class TimeTree extends Component {
           10,
           this.curSelectValue
         )
-        .then(function() {
+        .then(function () {
           that.setState({ loading: false });
           if (that.props.newsData.total === that.props.curpage) {
             that.setState({ bidden: 'logbidden' });

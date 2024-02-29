@@ -1,0 +1,23 @@
+.case-des-modal .ant-modal-body {
+  max-height: 520px;
+  overflow-y: scroll;
+}
+.case-des-modal .ip-filter .ip > .ant-form-item, .case-des-modal .ip-filter .ip-switch > .ant-form-item {
+  margin-bottom: 0;
+}
+.case-des-modal .headers > .ant-form-item, .case-des-modal .paramsArr > .ant-form-item, .case-des-modal .params-form > .ant-form-item {
+  margin-bottom: 0;
+}
+.case-des-modal .sub-title {
+  clear: both;
+  font-weight: normal;
+  margin-top: 0.48rem;
+  margin-bottom: 0.16rem;
+  border-left: 3px solid #2395f1;
+  padding-left: 8px;
+}
+.case-des-modal .pretty-editor {
+  min-height: 300px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}/*# sourceMappingURL=CaseDesModal.css.map */

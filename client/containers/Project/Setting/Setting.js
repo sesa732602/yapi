@@ -12,7 +12,7 @@ const plugin = require('client/plugin.js');
 
 const routers = {}
 
-import './Setting.scss';
+import './Setting.css';
 
 @connect(state => {
   return {
@@ -47,7 +47,7 @@ class Setting extends Component {
           <TabPane tab="全局mock脚本" key="5">
             <ProjectMock projectId={+id} />
           </TabPane>
-          {Object.keys(routers).map(key=>{
+          {Object.keys(routers).map(key => {
             const C = routers[key].component;
             return <TabPane tab={routers[key].name} key={routers[key].name}>
               <C projectId={+id} />

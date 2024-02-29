@@ -1,7 +1,7 @@
 import React, { PureComponent as Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Icon, Modal, Input, message,Spin,  Row, Menu, Col, Popover, Tooltip } from 'antd';
+import { Icon, Modal, Input, message, Spin, Row, Menu, Col, Popover, Tooltip } from 'antd';
 import { autobind } from 'core-decorators';
 import axios from 'axios';
 import { withRouter } from 'react-router-dom';
@@ -18,7 +18,7 @@ import {
 } from '../../../reducer/modules/group.js';
 import _ from 'underscore';
 
-import './GroupList.scss';
+import './GroupList.css';
 
 const tip = (
   <div className="title-container">
@@ -221,7 +221,7 @@ export default class GroupList extends Component {
                   <Icon className="btn" type="folder-add" onClick={this.showModal} />
                 </a>
               </Tooltip>
-            
+
             </div>
             <div className="curr-group-desc">简介: {currGroup.group_desc}</div>
           </div>

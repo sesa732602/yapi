@@ -1,4 +1,4 @@
-import './Footer.scss';
+import './Footer.css';
 import React, { PureComponent as Component } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'antd';
@@ -16,7 +16,7 @@ class Footer extends Component {
     return (
       <div className="footer-wrapper">
         <Row className="footer-container">
-          {this.props.footList.map(function(item, i) {
+          {this.props.footList.map(function (item, i) {
             return (
               <FootItem
                 key={i}
@@ -48,7 +48,7 @@ class FootItem extends Component {
           {this.props.iconType ? <Icon type={this.props.iconType} className="icon" /> : ''}
           {this.props.title}
         </h4>
-        {this.props.linkList.map(function(item, i) {
+        {this.props.linkList.map(function (item, i) {
           return (
             <p key={i}>
               <a href={item.itemLink} className="link">

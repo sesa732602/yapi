@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Loading.scss';
+import './Loading.css';
 
 export default class Loading extends React.PureComponent {
   static defaultProps = {

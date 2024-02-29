@@ -1,0 +1,85 @@
+.postman-dataImport {
+  display: flex;
+}
+.postman-dataImport .dataImportCon {
+  min-width: 304px;
+  background-color: #ececec;
+  padding: 16px;
+  border-radius: 4px;
+}
+.postman-dataImport .dataImportCon .ant-upload-drag {
+  padding: 16px;
+  background-color: white;
+}
+.postman-dataImport .dataImportCon .dataImportTile {
+  color: #2395f1;
+  padding: 16px 0px;
+  font-weight: 500;
+  width: 100%;
+}
+.postman-dataImport .dataImportCon .dataImportTile .ant-select {
+  width: 100%;
+}
+.postman-dataImport .dataImportCon .dataExport {
+  padding-bottom: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+.postman-dataImport .dataImportCon .dataSync {
+  padding-top: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+.postman-dataImport .dataImportCon .dataSync .label {
+  padding-right: 8px;
+  width: 150px;
+  display: inline-block;
+}
+.postman-dataImport .dataImportCon .dataSync .label:after {
+  content: ":";
+  margin: 0 8px 0 2px;
+  position: relative;
+  top: -0.5px;
+}
+.postman-dataImport .dataImportCon .import-content {
+  margin-top: 16px;
+  height: 180px;
+}
+.postman-dataImport .dataImportCon .url-import-content {
+  text-align: center;
+}
+.postman-dataImport .dataImportCon .url-import-content .url-btn {
+  margin-top: 16px;
+}
+.postman-dataImport .dataImportCon .export-content {
+  text-align: center;
+}
+.postman-dataImport .dataImportCon .export-desc {
+  padding-bottom: 15px;
+}
+.postman-dataImport .dataImportCon .export-button {
+  width: 100px;
+  height: 35px;
+}
+.postman-dataImport .dataImportCon .wiki-btn {
+  margin-left: 8px;
+}
+
+.postman-dataImport-modal .postman-dataImport-modal-content {
+  max-height: 600px;
+  min-width: 534px;
+  overflow-y: scroll;
+  padding-top: 8px;
+}
+.postman-dataImport-modal .postman-dataImport-show-diff {
+  padding: 4px 0;
+}
+.postman-dataImport-modal .info {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 24px;
+}
+
+.dataImport-confirm .ant-modal-content .ant-confirm-btns {
+  margin-top: 10px;
+}/*# sourceMappingURL=ProjectData.css.map */

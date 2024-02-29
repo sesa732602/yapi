@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Tabs } from 'antd';
 import LoginForm from './Login';
 import RegForm from './Reg';
-import './Login.scss';
+import './Login.css';
 const TabPane = Tabs.TabPane;
 
 @connect(state => ({
@@ -24,7 +24,7 @@ export default class LoginWrap extends Component {
 
   render() {
     const { loginWrapActiveKey, canRegister } = this.props;
-    {/** show only login when register is disabled */}
+    {/** show only login when register is disabled */ }
     return (
       <Tabs
         defaultActiveKey={loginWrapActiveKey}
@@ -35,7 +35,7 @@ export default class LoginWrap extends Component {
           <LoginForm />
         </TabPane>
         <TabPane tab={"注册"} key="2">
-          {canRegister ? <RegForm /> : <div style={{minHeight: 200}}>管理员已禁止注册，请联系管理员</div>}
+          {canRegister ? <RegForm /> : <div style={{ minHeight: 200 }}>管理员已禁止注册，请联系管理员</div>}
         </TabPane>
       </Tabs>
     );

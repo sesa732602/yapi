@@ -2,7 +2,7 @@ import React, { PureComponent as Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Icon, Input, AutoComplete } from 'antd';
-import './Search.scss';
+import './Search.css';
 import { withRouter } from 'react-router';
 import axios from 'axios';
 import { setCurrGroup, fetchGroupMsg } from '../../../reducer/modules/group';
@@ -142,9 +142,9 @@ export default class Srch extends Component {
           defaultActiveFirstOption={false}
           onSelect={this.onSelect}
           onSearch={this.handleSearch}
-          // filterOption={(inputValue, option) =>
-          //   option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
-          // }
+        // filterOption={(inputValue, option) =>
+        //   option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+        // }
         >
           <Input
             prefix={<Icon type="search" className="srch-icon" />}

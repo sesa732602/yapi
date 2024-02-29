@@ -35,7 +35,7 @@ const RadioButton = Radio.Button;
 import constants from '../../../../constants/variable.js';
 const confirm = Modal.confirm;
 import { nameLengthLimit, entries, trim, htmlFilter } from '../../../../common';
-import '../Setting.scss';
+import '../Setting.css';
 import _ from 'underscore';
 import ProjectTag from './ProjectTag.js';
 // layout
@@ -141,7 +141,7 @@ class ProjectMessage extends Component {
               ]);
             }
           })
-          .catch(() => {});
+          .catch(() => { });
         form.resetFields();
       }
     });
@@ -187,7 +187,7 @@ class ProjectMessage extends Component {
         }
       },
       iconType: 'delete',
-      onCancel() {}
+      onCancel() { }
     });
   };
 
@@ -377,7 +377,7 @@ class ProjectMessage extends Component {
                 </span>
               }
             >
-              <Input disabled value={mockUrl} onChange={() => {}} />
+              <Input disabled value={mockUrl} onChange={() => { }} />
             </FormItem>
 
             <FormItem {...formItemLayout} label="描述">
@@ -463,7 +463,7 @@ class ProjectMessage extends Component {
                     <Icon type="unlock" />公开<br />
                     <span className="radio-desc">任何人都可以索引并查看项目信息</span>
                   </Radio>}
-                  
+
                 </RadioGroup>
               )}
             </FormItem>

@@ -12,7 +12,7 @@ import {
 import { getProject } from '../../../../reducer/modules/project.js';
 import { Link } from 'react-router-dom';
 import variable from '../../../../constants/variable';
-import './Edit.scss';
+import './Edit.css';
 import Label from '../../../../components/Label/Label.js';
 
 const Option = Select.Option;
@@ -83,7 +83,7 @@ class InterfaceList extends Component {
       await this.props.fetchInterfaceList(option);
     } else if (isNaN(params.actionId)) {
       let catid = params.actionId.substr(4);
-      this.setState({catid: +catid});
+      this.setState({ catid: +catid });
       let option = {
         page: this.state.current,
         limit,
@@ -198,7 +198,7 @@ class InterfaceList extends Component {
   render() {
     let tag = this.props.curProject.tag;
     let tagFilter = tag.map(item => {
-      return {text: item.name, value: item.name};
+      return { text: item.name, value: item.name };
     });
 
     const columns = [

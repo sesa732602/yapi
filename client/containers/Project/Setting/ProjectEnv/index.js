@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './index.scss';
+import './index.css';
 import { Icon, Layout, Tooltip, message, Row, Popconfirm } from 'antd';
 const { Content, Sider } = Layout;
 import ProjectEnvContent from './ProjectEnvContent.js';
@@ -111,7 +111,7 @@ class ProjectEnv extends Component {
           this.props.getProject(this.props.projectId);
           this.props.getEnv(this.props.projectId);
           message.success('修改成功! ');
-          if(this._isMounted) {
+          if (this._isMounted) {
             this.setState({ ...assignValue });
           }
         }

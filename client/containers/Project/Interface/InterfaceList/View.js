@@ -1,4 +1,4 @@
-import './View.scss';
+import './View.css';
 import React, { PureComponent as Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -361,7 +361,7 @@ class View extends Component {
 
     let methodColor =
       variable.METHOD_COLOR[
-        this.props.curData.method ? this.props.curData.method.toLowerCase() : 'get'
+      this.props.curData.method ? this.props.curData.method.toLowerCase() : 'get'
       ];
 
     // statusColor = statusColor[this.props.curData.status?this.props.curData.status.toLowerCase():"undone"];
@@ -461,12 +461,11 @@ class View extends Component {
                 onClick={() =>
                   window.open(
                     location.protocol +
-                      '//' +
-                      location.hostname +
-                      (location.port !== '' ? ':' + location.port : '') +
-                      `/mock/${this.props.currProject._id}${this.props.currProject.basepath}${
-                        this.props.curData.path
-                      }`,
+                    '//' +
+                    location.hostname +
+                    (location.port !== '' ? ':' + location.port : '') +
+                    `/mock/${this.props.currProject._id}${this.props.currProject.basepath}${this.props.curData.path
+                    }`,
                     '_blank'
                   )
                 }
@@ -475,8 +474,7 @@ class View extends Component {
                   '//' +
                   location.hostname +
                   (location.port !== '' ? ':' + location.port : '') +
-                  `/mock/${this.props.currProject._id}${this.props.currProject.basepath}${
-                    this.props.curData.path
+                  `/mock/${this.props.currProject._id}${this.props.currProject.basepath}${this.props.curData.path
                   }`}
               </span>
             </Col>
@@ -545,7 +543,7 @@ class View extends Component {
           style={{
             display:
               this.props.curData.method &&
-              HTTP_METHOD[this.props.curData.method.toUpperCase()].request_body
+                HTTP_METHOD[this.props.curData.method.toUpperCase()].request_body
                 ? ''
                 : 'none'
           }}
@@ -556,10 +554,10 @@ class View extends Component {
           {this.props.curData.req_body_type === 'form'
             ? this.req_body_form(this.props.curData.req_body_type, this.props.curData.req_body_form)
             : this.req_body(
-                this.props.curData.req_body_type,
-                this.props.curData.req_body_other,
-                this.props.curData.req_body_is_json_schema
-              )}
+              this.props.curData.req_body_type,
+              this.props.curData.req_body_other,
+              this.props.curData.req_body_is_json_schema
+            )}
         </div>
 
         <h2 className="interface-title">返回数据</h2>

@@ -1,4 +1,4 @@
-import './Breadcrumb.scss';
+import './Breadcrumb.css';
 import { withRouter } from 'react-router-dom';
 import { Breadcrumb } from 'antd';
 import PropTypes from 'prop-types';

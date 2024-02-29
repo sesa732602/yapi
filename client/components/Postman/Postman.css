@@ -1,0 +1,162 @@
+.postman .adv-button {
+  margin-bottom: 8px;
+}
+.postman .pretty-editor {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  min-height: 200px;
+}
+.postman .pretty-editor-body {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  min-height: 300px;
+  min-width: 100%;
+}
+.postman .pretty-editor-header {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  min-height: 300px;
+}
+.postman .interface-test {
+  padding: 0.24rem;
+}
+.postman .interface-test .ant-checkbox-wrapper {
+  display: flex;
+}
+.postman .insert-code {
+  margin-right: 20px;
+}
+.postman .insert-code .code-item {
+  border: 1px solid #dbd9d9;
+  padding: 3px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.postman .case-script {
+  min-height: 500px;
+  margin: 10px;
+}
+.postman .response-tab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.postman .response-tab .ant-tabs-nav {
+  background: #f7f7f7;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+}
+.postman .response-tab .header, .postman .response-tab .body {
+  margin-bottom: 10px;
+}
+.postman .response-tab .header {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.postman .response-tab .body {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.postman .response-tab .response-test {
+  min-height: 400px;
+}
+.postman .ant-spin-blur .res-code.success {
+  background-color: transparent;
+}
+.postman .ant-spin-blur .res-code.fail {
+  background-color: transparent;
+}
+.postman .res-code {
+  padding: 0.08rem 0.28rem;
+  color: #fff;
+  margin-left: -0.1rem;
+  margin-right: -0.28rem;
+  transition: all 0.2s;
+  position: relative;
+  border-radius: 2px;
+}
+.postman .res-code.success {
+  background-color: #00a854;
+}
+.postman .res-code.fail {
+  background-color: #f56a00;
+}
+.postman .container-header-body {
+  display: flex;
+  padding-bottom: 0.36rem;
+}
+.postman .container-header-body .header, .postman .container-header-body .body {
+  flex: 1 0 300px;
+}
+.postman .container-header-body .header .pretty-editor-header, .postman .container-header-body .header .pretty-editor-body, .postman .container-header-body .body .pretty-editor-header, .postman .container-header-body .body .pretty-editor-body {
+  height: 100%;
+}
+.postman .container-header-body .header .postman .pretty-editor-body, .postman .container-header-body .body .postman .pretty-editor-body {
+  min-height: 200px;
+}
+.postman .container-header-body .header .ace_print-margin, .postman .container-header-body .body .ace_print-margin {
+  display: none;
+}
+.postman .container-header-body .header {
+  max-width: 400px;
+}
+.postman .container-header-body .container-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.08rem 0;
+}
+.postman .container-header-body .resizer {
+  flex: 0 0 21px;
+  position: relative;
+}
+.postman .container-header-body .resizer:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #acaaaa;
+  opacity: 0.8;
+  position: absolute;
+  left: 50%;
+}
+.postman .container-header-body .res-body-text {
+  height: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 8px;
+}
+.postman .has-plugin, .postman .req-part, .postman .resp-part {
+  margin-bottom: 16px;
+}
+.postman .url {
+  display: flex;
+  margin: 24px 10px;
+}
+.postman .key-value-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+.postman .key-value-wrap .key {
+  flex-basis: 220px;
+}
+.postman .key-value-wrap .value {
+  flex-grow: 1;
+}
+.postman .key-value-wrap .eq-symbol {
+  margin: 0 5px;
+}
+.postman .key-value-wrap .params-enable {
+  width: 24px;
+}
+.postman .icon-btn {
+  cursor: pointer;
+  margin-left: 6px;
+}
+.postman .icon-btn:hover {
+  color: #2395f1;
+}
+
+.env-modal .ant-modal-body {
+  padding: 0;
+}/*# sourceMappingURL=Postman.css.map */

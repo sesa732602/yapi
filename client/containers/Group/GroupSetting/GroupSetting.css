@@ -1,0 +1,24 @@
+.panel-group .row {
+  margin-bottom: 0.24rem;
+}
+.panel-group .save {
+  margin-top: 0.48rem;
+}
+.panel-group .left {
+  flex: 100px 0 1;
+  text-align: right;
+}
+.panel-group .right {
+  flex: 830px 0 1;
+}
+.panel-group .label {
+  text-align: right;
+}
+.panel-group .save-button {
+  text-align: center;
+}
+.panel-group .custom-field-rule {
+  padding-top: 4px;
+  position: absolute;
+  color: #f5222d;
+}/*# sourceMappingURL=GroupSetting.css.map */

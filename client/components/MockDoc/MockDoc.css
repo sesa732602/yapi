@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.MockDoc {
+  background-color: #F6F6F6;
+  border: 16px solid #F6F6F6;
+  overflow: auto;
+  width: 500px;
+  height: 500px;
+  word-break: keep-all; /* 不换行 */
+  white-space: nowrap;
+}
+.MockDoc .jsonItem {
+  font-size: 14px;
+  width: auto;
+}
+.MockDoc .jsonitemNum {
+  margin-right: 16px;
+  display: inline-block;
+  width: 25px;
+  border-right: 1px solid gray;
+}
+.MockDoc .valueLight {
+  color: #108ee9;
+}
+
+.spaces {
+  display: inline-block;
+  width: 30px;
+}
+
+.keymes {
+  margin-left: 20px;
+}/*# sourceMappingURL=MockDoc.css.map */

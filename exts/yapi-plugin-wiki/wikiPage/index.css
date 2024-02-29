@@ -1,0 +1,21 @@
+.wiki-content .wiki-user {
+  padding-top: 8px;
+}
+.wiki-content .wiki-editor {
+  padding-top: 16px;
+}
+.wiki-content .upload-btn {
+  margin-right: 16px;
+}
+.wiki-content .wiki-conflict {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.wiki-content .wiki-up {
+  text-align: right;
+  padding-top: 16px;
+}
+.wiki-content .wiki-title {
+  padding-bottom: 16px;
+}/*# sourceMappingURL=index.css.map */

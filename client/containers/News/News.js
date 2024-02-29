@@ -1,4 +1,4 @@
-import './News.scss';
+import './News.css';
 import React, { PureComponent as Component } from 'react';
 import NewsTimeline from './NewsTimeline/NewsTimeline';
 import { connect } from 'react-redux';

@@ -1,0 +1,56 @@
+.project-token {
+  background: #fff;
+  padding: 15px;
+  min-height: 4.68rem;
+}
+.project-token .token {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.project-token .token-message {
+  padding: 8px;
+  margin-right: 8px;
+  background-color: #f5f5f5;
+}
+.project-token .open-api {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.project-token .open-api li {
+  margin-bottom: 10px;
+}
+.project-token .message {
+  padding: 16px 0 0 16px;
+  font-size: 14px;
+}
+.project-token .token-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0.16rem;
+  border-left: 3px solid #2395f1;
+  padding-left: 8px;
+}
+.project-token .blockquote {
+  border-left: 4px solid #ff561b;
+  padding: 0.12rem 0.24rem;
+  position: relative;
+  margin-left: 16px;
+}
+.project-token .blockquote:before {
+  content: "!";
+  display: block;
+  position: absolute;
+  left: -0.12rem;
+  top: 0.12rem;
+  width: 20px;
+  height: 20px;
+  background-color: #ff561b;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+.project-token .token-btn {
+  margin-right: 8px;
+}/*# sourceMappingURL=ProjectToken.css.map */

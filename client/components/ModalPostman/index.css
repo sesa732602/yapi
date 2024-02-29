@@ -1,0 +1,112 @@
+.modal-postman .ant-modal-body {
+  padding: 0;
+}
+.modal-postman .ant-modal-footer {
+  background-color: #f5f5f5;
+}
+.modal-postman .modal-postman-form {
+  max-height: 500px;
+  min-height: 400px;
+  overflow-y: scroll;
+}
+.modal-postman .modal-postman-form .ant-radio-group {
+  width: 100%;
+}
+.modal-postman .modal-postman-form .mock-search {
+  padding-right: 8px;
+  margin-bottom: 16px;
+}
+.modal-postman .modal-postman-form .mock-checked {
+  color: #fff;
+  background-color: #2395f1;
+  width: 100%;
+}
+.modal-postman .modal-postman-form .row {
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.modal-postman .modal-postman-form .checked {
+  color: #fff;
+  background-color: #2395f1;
+}
+.modal-postman .modal-postman-expression, .modal-postman .modal-postman-preview {
+  border-top: 1px solid #e9e9e9;
+  padding: 8px 16px;
+  line-height: 38px;
+}
+.modal-postman .modal-postman-preview {
+  background-color: #f5f5f5;
+}
+.modal-postman .modal-postman-collapse .ant-collapse-item > .ant-collapse-header {
+  background-color: #f5f5f5;
+}
+.modal-postman .modal-postman-collapse .ant-collapse-item > .ant-collapse-header .arrow {
+  left: 14px;
+  font-size: 1.17em;
+}
+.modal-postman .modal-postman-collapse .ant-collapse-content > .ant-collapse-content-box {
+  padding-top: 8px;
+}
+.modal-postman .modal-postman-collapse .ant-collapse-content {
+  padding: 0 0 0 8px;
+}
+.modal-postman .title {
+  border-left: 3px solid #2395f1;
+  padding-left: 8px;
+}
+.modal-postman .modal-postman-form-mock, .modal-postman .modal-postman-form-variable {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.modal-postman .mock-title, .modal-postman .methods-title {
+  margin-bottom: 8px;
+}
+.modal-postman .modal-postman-form-method {
+  padding-top: 16px;
+  margin-left: 8px;
+  max-height: 500px;
+  overflow: auto;
+}
+.modal-postman .methods-row {
+  position: relative;
+}
+.modal-postman .methods-row .ant-input-sm {
+  margin-top: 2px;
+}
+.modal-postman .methods-row:nth-child(5) {
+  height: 67px;
+}
+.modal-postman .modal-postman-col {
+  border-right: 1px solid #e9e9e9;
+}
+.modal-postman .show-more {
+  color: #2395f1;
+  padding-left: 8px;
+  cursor: pointer;
+}
+.modal-postman .ant-row-flex {
+  flex-wrap: nowrap;
+}
+.modal-postman .input-component {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 150px;
+  padding-top: 2px;
+  margin-right: 16px;
+}
+.modal-postman .modal-postman-expression .expression-item, .modal-postman .modal-postman-expression .expression {
+  color: rgba(39, 56, 72, 0.85);
+  font-size: 1.17em;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding-right: 4px;
+}
+.modal-postman .modal-postman-expression .expression-item {
+  color: #2395f1;
+}
+.modal-postman .modal-postman-preview h3 {
+  word-wrap: break-word;
+}/*# sourceMappingURL=index.css.map */

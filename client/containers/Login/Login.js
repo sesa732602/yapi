@@ -7,7 +7,7 @@ import { withRouter } from 'react-router';
 const FormItem = Form.Item;
 const RadioGroup = Radio.Group;
 
-import './Login.scss';
+import './Login.css';
 
 const formItemStyle = {
   marginBottom: '.16rem'
@@ -87,10 +87,10 @@ class Login extends Component {
       this.state.loginType === 'ldap'
         ? {}
         : {
-            required: true,
-            message: '请输入正确的email!',
-            pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{1,})+$/
-          };
+          required: true,
+          message: '请输入正确的email!',
+          pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{1,})+$/
+        };
     return (
       <Form onSubmit={this.handleSubmit}>
         {/* 登录类型 (普通登录／LDAP登录) */}

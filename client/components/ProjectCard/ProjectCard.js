@@ -1,4 +1,4 @@
-import './ProjectCard.scss';
+import './ProjectCard.css';
 import React, { PureComponent as Component } from 'react';
 import { Card, Icon, Tooltip, Modal, Alert, Input, message } from 'antd';
 import { connect } from 'react-redux';
@@ -76,9 +76,8 @@ class ProjectCard extends Component {
       content: (
         <div style={{ marginTop: '10px', fontSize: '13px', lineHeight: '25px' }}>
           <Alert
-            message={`该操作将会复制 ${
-              that.props.projectData.name
-            } 下的所有接口集合，但不包括测试集合中的接口`}
+            message={`该操作将会复制 ${that.props.projectData.name
+              } 下的所有接口集合，但不包括测试集合中的接口`}
             type="info"
           />
           <div style={{ marginTop: '16px' }}>
@@ -98,7 +97,7 @@ class ProjectCard extends Component {
         that.copy(projectName);
       },
       iconType: 'copy',
-      onCancel() {}
+      onCancel() { }
     });
   };
 

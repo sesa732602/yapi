@@ -20,7 +20,7 @@ import { safeAssign } from 'client/common.js';
 import AceEditor from 'client/components/AceEditor/AceEditor';
 import constants from 'client/constants/variable.js';
 import { httpCodes } from '../index.js';
-import './CaseDesModal.scss';
+import './CaseDesModal.css';
 import { connect } from 'react-redux';
 import json5 from 'json5';
 
@@ -70,16 +70,16 @@ class CaseDesForm extends Component {
     caseData.params = caseData.params || {};
     const paramsArr = Object.keys(caseData.params).length
       ? Object.keys(caseData.params)
-          .map(key => {
-            return { name: key, value: caseData.params[key] };
-          })
-          .filter(item => {
-            if (typeof item.value === 'object') {
-              // this.setState({ paramsForm: 'json' })
-              caseData.paramsForm = 'json';
-            }
-            return typeof item.value !== 'object';
-          })
+        .map(key => {
+          return { name: key, value: caseData.params[key] };
+        })
+        .filter(item => {
+          if (typeof item.value === 'object') {
+            // this.setState({ paramsForm: 'json' })
+            caseData.paramsForm = 'json';
+          }
+          return typeof item.value !== 'object';
+        })
       : [{ name: '', value: '' }];
     const headers =
       caseData.headers && caseData.headers.length ? caseData.headers : [{ name: '', value: '' }];
@@ -368,15 +368,15 @@ class CaseDesForm extends Component {
                     'ip',
                     getFieldValue('ip_enable')
                       ? {
-                          initialValue: ip,
-                          rules: [
-                            {
-                              pattern: constants.IP_REGEXP,
-                              message: '请填写正确的 IP 地址',
-                              required: true
-                            }
-                          ]
-                        }
+                        initialValue: ip,
+                        rules: [
+                          {
+                            pattern: constants.IP_REGEXP,
+                            message: '请填写正确的 IP 地址',
+                            required: true
+                          }
+                        ]
+                      }
                       : {}
                   )(<Input placeholder="请输入过滤的 IP 地址" />)}
                 </FormItem>
@@ -422,10 +422,10 @@ class CaseDesForm extends Component {
                 'params',
                 paramsForm === 'json'
                   ? {
-                      rules: [
-                        { validator: this.jsonValidator, message: '请输入正确的 JSON 字符串！' }
-                      ]
-                    }
+                    rules: [
+                      { validator: this.jsonValidator, message: '请输入正确的 JSON 字符串！' }
+                    ]
+                  }
                   : {}
               )(<Input style={{ display: 'none' }} />)}
             </FormItem>

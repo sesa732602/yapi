@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getToken } from '../../../client/reducer/modules/project.js'
 
 
-import './Services.scss';
+import './Services.css';
 
 @connect(
   state => {
@@ -26,9 +26,9 @@ export default class Services extends Component {
   async componentDidMount() {
     const id = this.props.projectId;
     await this.props.getToken(id);
-    
+
   }
-  render () {
+  render() {
     const id = this.props.projectId;
     return (
       <div className="project-services">

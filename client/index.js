@@ -1,4 +1,4 @@
-import './styles/common.scss';
+import './styles/common.css';
 import './styles/theme.less';
 import { LocaleProvider } from 'antd';
 import './plugin';

@@ -10,7 +10,7 @@ import AddColModal from './AddColModal';
 // import {
 // } from '../../../reducer/modules/group.js'
 
-import './Run.scss';
+import './Run.css';
 
 @connect(state => ({
   currInterface: state.inter.curdata,
@@ -32,9 +32,9 @@ export default class Run extends Component {
     super(props);
   }
 
-  componentWillMount() {}
+  componentWillMount() { }
 
-  componentWillReceiveProps() {}
+  componentWillReceiveProps() { }
 
   savePostmanRef = postman => {
     this.postman = postman;

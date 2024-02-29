@@ -1,4 +1,4 @@
-import './Home.scss';
+import './Home.css';
 import React, { PureComponent as Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -60,7 +60,7 @@ const HomeGuest = () => (
           </Col>
           <Col lg={15} xs={0} className="col-img">
             <div className="img-container">
-              
+
             </div>
           </Col>
         </Row>
@@ -343,7 +343,7 @@ class Home extends Component {
     }
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
   static propTypes = {
     introList: PropTypes.array,
     login: PropTypes.bool,

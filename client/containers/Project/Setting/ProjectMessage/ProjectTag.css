@@ -1,0 +1,12 @@
+.project-tag .item-name {
+  margin-right: 16px;
+}
+.project-tag .delete {
+  font-size: 16px;
+}
+.project-tag .tag-item {
+  margin-bottom: 8px;
+}
+.project-tag .tag-last-row {
+  display: none;
+}/*# sourceMappingURL=ProjectTag.css.map */

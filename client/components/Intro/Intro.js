@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from 'antd';
-import './Intro.scss';
+import './Intro.css';
 import { OverPack } from 'rc-scroll-anim';
 import TweenOne from 'rc-tween-one';
 import QueueAnim from 'rc-queue-anim';
@@ -79,7 +79,7 @@ class Intro extends React.PureComponent {
               <div className="des-detail">{intro.des}</div>
             </div>
             <ul className="des-switch" key={`${id}-des-switch`}>
-              {intro.detail.map(function(item, i) {
+              {intro.detail.map(function (item, i) {
                 return (
                   <IntroPart key={i} title={item.title} des={item.des} iconType={item.iconType} />
                 );

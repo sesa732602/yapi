@@ -1,0 +1,97 @@
+.news-box {
+  max-width: 12.2rem;
+  min-width: 10.2rem;
+  padding: 0 0.24rem;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  margin: 0px auto 0 auto;
+  font-size: 0.14rem;
+  background: #FFF;
+  display: block;
+}
+.news-box .news-timeline {
+  padding: 24px;
+  padding-left: 125px;
+  color: #6b6c6d;
+}
+.news-box .news-timeline .ant-timeline-item {
+  min-height: 60px;
+}
+.news-box .news-timeline .ant-timeline-item-head {
+  width: 30px;
+  height: 30px;
+  left: -8px;
+  top: -4px;
+  border-color: #e1e3e4;
+}
+.news-box .news-timeline .logusername {
+  color: #4eaef3;
+  padding: 0px 16px 0px 8px;
+  cursor: pointer;
+}
+.news-box .news-timeline .logtype {
+  padding-right: 16px;
+}
+.news-box .news-timeline .logtime {
+  padding-right: 16px;
+}
+.news-box .news-timeline .logcontent {
+  display: block;
+  padding-left: 8px;
+  line-height: 24px;
+}
+.news-box .news-timeline .logoTimeago {
+  position: absolute;
+  left: -80px;
+  top: 5px;
+  color: #c0c1c1;
+}
+.news-box .news-timeline .logbidden {
+  color: #c0c1c1;
+  cursor: default;
+  line-height: 30px;
+  padding-left: 30px;
+}
+.news-box .news-timeline .loggetMore {
+  line-height: 30px;
+  padding-left: 30px;
+  color: #4eaef3;
+}
+.news-box .logHead {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 24px 0px;
+  overflow: hidden;
+}
+.news-box .logHead .breadcrumb-container {
+  float: left;
+  min-width: 100px;
+}
+.news-box .logHead .Mockurl {
+  width: 500px;
+  float: right;
+  color: #7b7b7b;
+}
+.news-box .logHead .Mockurl > span {
+  float: left;
+  line-height: 30px;
+}
+.news-box .logHead .Mockurl p {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  padding: 4px 7px;
+  height: 28px;
+  cursor: text;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  transition: all 0.3s;
+  overflow-x: auto;
+}
+.news-box .logHead .Mockurl button {
+  float: right;
+}/*# sourceMappingURL=News.css.map */

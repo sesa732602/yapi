@@ -1,0 +1,21 @@
+.breadcrumb-container .ant-breadcrumb {
+  font-size: 16px;
+  float: left;
+  color: #fff;
+  padding-left: 16px;
+  line-height: unset;
+}
+.breadcrumb-container .ant-breadcrumb a {
+  color: #fff;
+}
+.breadcrumb-container .ant-breadcrumb a:hover {
+  color: #2395f1;
+}
+.breadcrumb-container .ant-breadcrumb > span:last-child {
+  color: #fff;
+  font-weight: normal;
+}
+.breadcrumb-container .ant-breadcrumb-separator {
+  color: #fff;
+  font-weight: normal;
+}/*# sourceMappingURL=Breadcrumb.css.map */

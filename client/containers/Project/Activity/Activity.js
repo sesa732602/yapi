@@ -1,4 +1,4 @@
-import './Activity.scss';
+import './Activity.css';
 import React, { PureComponent as Component } from 'react';
 import TimeTree from '../../../components/TimeLine/TimeLine';
 import { connect } from 'react-redux';

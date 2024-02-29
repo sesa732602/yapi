@@ -1,0 +1,16 @@
+.add-col-modal .col-list {
+  height: 200px;
+  overflow: auto;
+  margin: 7px 0 16px 0;
+  background: #eaeaea;
+}
+.add-col-modal .col-list .col-item {
+  padding: 7px 10px 7px 10px;
+}
+.add-col-modal .col-list .col-item:hover {
+  background: #fa0;
+}
+.add-col-modal .col-list .col-item.selected {
+  background: #2395f1;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=Run.css.map */

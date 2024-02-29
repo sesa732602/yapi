@@ -19,7 +19,7 @@ import { Link, withRouter } from 'react-router-dom';
 import produce from 'immer';
 import { arrayChangeIndex } from '../../../../common.js';
 
-import './interfaceMenu.scss';
+import './interfaceMenu.css';
 
 const confirm = Modal.confirm;
 const TreeNode = Tree.TreeNode;
@@ -240,7 +240,7 @@ class InterfaceMenu extends Component {
         that.props.history.push('/project/' + that.props.match.params.id + '/interface/api');
         ref.destroy();
       },
-      onCancel() {}
+      onCancel() { }
     });
   };
 

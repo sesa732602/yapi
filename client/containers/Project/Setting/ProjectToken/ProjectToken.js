@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './ProjectToken.scss';
+import './ProjectToken.css';
 import { getToken, updateToken } from '../../../../reducer/modules/project';
 import { connect } from 'react-redux';
 import { Icon, Tooltip, message, Modal } from 'antd';
@@ -47,7 +47,7 @@ class ProjectToken extends Component {
         await that.props.updateToken(that.props.projectId);
         message.success('更新成功');
       },
-      onCancel() {}
+      onCancel() { }
     });
   };
 
@@ -75,8 +75,8 @@ class ProjectToken extends Component {
           为确保项目内数据的安全性和私密性，请勿轻易将该token暴露给项目组外用户。
         </div>
         <br />
-        <h2  className="token-title">open接口：</h2>
-        <p><a target="_blank" rel="noopener noreferrer"   href="https://hellosean1025.github.io/yapi/openapi.html">详细接口文档</a></p>
+        <h2 className="token-title">open接口：</h2>
+        <p><a target="_blank" rel="noopener noreferrer" href="https://hellosean1025.github.io/yapi/openapi.html">详细接口文档</a></p>
         <div>
           <ul className="open-api">
             <li>/api/open/run_auto_test [运行自动化测试]</li>

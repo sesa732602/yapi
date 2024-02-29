@@ -165,8 +165,6 @@ code {
   color: rgba(0, 0, 0, 0.75);
   padding: 1px 3px;
   font-size: 12px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -211,7 +209,6 @@ sup {
   h6 {
     color: black;
   }
-
   table,
   pre {
     page-break-inside: avoid;
@@ -336,7 +333,7 @@ body > pre {
   color: #fff;
   margin-left: 16px;
   padding: 8px;
-  transition: color .2s;
+  transition: color 0.2s;
 }
 .m-header .nav a:hover {
   color: #59d69d;
@@ -346,6 +343,4 @@ body > pre {
   border-top: 1px solid #ddd;
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-/*# sourceMappingURL=defaultTheme.css.map */
+}/*# sourceMappingURL=defaultTheme.css.map */

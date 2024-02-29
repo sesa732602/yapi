@@ -1,0 +1,64 @@
+.intro-container .imgWrapper {
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+.intro-container .textWrapper {
+  display: block;
+  width: 50%;
+  height: 150px;
+  vertical-align: top;
+  position: absolute;
+  margin: auto;
+  right: 0;
+}
+.intro-container .des-container {
+  padding-left: 0.15rem;
+}
+.intro-container .des-container .des-title {
+  font-size: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.intro-container .des-container .des-detail {
+  font-size: 0.15rem;
+  margin-bottom: 0.2rem;
+}
+.intro-container .des-container .des-switch .switch-content {
+  float: left;
+  width: 50%;
+  max-height: 0.85rem;
+  font-size: 0.14rem;
+  padding: 0.1rem 0.15rem 0.1rem 0;
+}
+.intro-container .des-container .des-switch .switch-content div {
+  float: left;
+}
+.intro-container .des-container .des-switch .switch-content .icon-switch {
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 0.02rem;
+  background-color: #2395f1;
+  margin-right: 0.1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.18rem;
+}
+.intro-container .des-container .des-switch .switch-content .text-switch {
+  width: calc(100% - 0.65rem);
+}
+.intro-container .img-container {
+  height: 100%;
+  width: 100%;
+  padding-right: 0.15rem;
+}
+.intro-container .img-container img {
+  height: 100%;
+  width: 100%;
+  border: 0.01rem solid #E5E5E5;
+  box-shadow: 0 0 3px 1px #E5E5E5;
+  border-radius: 0.04rem;
+}/*# sourceMappingURL=Intro.css.map */

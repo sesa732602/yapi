@@ -1,0 +1,174 @@
+.col-list-tree {
+  line-height: 25px;
+}
+.col-list-tree .ant-tree-node-content-wrapper {
+  width: calc(100% - 28px);
+}
+.col-list-tree .opts-icon,
+.col-list-tree .case-delete-icon {
+  line-height: 25px;
+  width: 30px;
+  font-weight: bold;
+}
+.col-list-tree .opts-icon:hover,
+.col-list-tree .case-delete-icon:hover {
+  color: #2395f1;
+}
+.col-list-tree .menu-title {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.col-list-tree .menu-title .casename {
+  overflow: hidden;
+}
+.col-list-tree .menu-title .case-delete-icon {
+  margin-left: 5px;
+  display: none;
+}
+.col-list-tree .menu-title .btns {
+  display: none;
+}
+.col-list-tree .menu-title:hover .case-delete-icon {
+  display: block;
+}
+.col-list-tree .menu-title:hover .btns {
+  display: block;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+/*
+ * note that styling gu-mirror directly is a bad practice because it's too generic.
+ * you're better off giving the draggable elements a unique class and styling that directly!
+ */
+.gu-mirror {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s ease-in-out;
+}
+
+.container div {
+  cursor: move;
+  cursor: grab;
+  cursor: -webkit-grab;
+  margin-bottom: 10px;
+}
+
+.container div:last-child {
+  margin-bottom: 0;
+}
+
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.container .ex-moved {
+  background-color: #e74c3c;
+}
+
+.container.ex-over {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.handle {
+  padding: 0 5px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: move;
+}
+
+.report {
+  min-height: 500px;
+}
+.report .case-report-pane {
+  margin-top: 10px;
+}
+.report .url {
+  overflow: auto;
+}
+.report .case-report {
+  margin: 10px;
+}
+.report .case-report .case-report-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+}
+.report .case-report pre {
+  white-space: pre-wrap;
+}
+
+.interface-col {
+  padding: 24px;
+}
+.interface-col .interface-col-table-header {
+  background-color: rgb(238, 238, 238);
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+}
+.interface-col .interface-col-table-body {
+  height: 50px;
+  line-height: 50px;
+}
+.interface-col .interface-col-table-header th {
+  padding-left: 5px;
+}
+.interface-col .interface-col-table-body td {
+  padding-left: 5px;
+}
+.interface-col .interface-col-table-action button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  max-width: 90px;
+}
+.interface-col .component-label-wrapper {
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.import-case-modal .ant-modal-body {
+  max-height: 800px;
+  overflow-y: scroll;
+}
+.import-case-modal .select-project {
+  margin-bottom: 16px;
+}
+
+.autoTestsModal .autoTestUrl {
+  overflow: auto;
+  background-color: #f5f5f5;
+  border: 1px solid rgba(241, 241, 241, 0.8078431373);
+  padding: 16px;
+}
+.autoTestsModal .autoTestMsg {
+  padding: 8px 0 16px;
+  font-size: 12px;
+}
+.autoTestsModal .copy-btn {
+  margin-left: 16px;
+  height: 50px;
+  font-size: 14px;
+  width: 70px;
+}
+.autoTestsModal .ant-modal-body {
+  padding-top: 32px;
+}
+.autoTestsModal .row {
+  margin-bottom: 0.24rem;
+}
+.autoTestsModal .label {
+  text-align: left;
+}
+
+.tree-wrapper {
+  min-height: 500px;
+  overflow-y: scroll;
+}/*# sourceMappingURL=InterfaceColMenu.css.map */

@@ -28,7 +28,7 @@ import {
   changeMemberEmailNotice
 } from '../../../../reducer/modules/project.js';
 import UsernameAutoComplete from '../../../../components/UsernameAutoComplete/UsernameAutoComplete.js';
-import '../Setting.scss';
+import '../Setting.css';
 
 const Option = Select.Option;
 

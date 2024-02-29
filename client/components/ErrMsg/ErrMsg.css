@@ -1,0 +1,14 @@
+.err-msg {
+  text-align: center;
+  font-size: 0.14rem;
+  line-height: 2;
+  margin-bottom: 0.24rem;
+  color: rgba(13, 27, 62, 0.43);
+}
+.err-msg .icon {
+  font-size: 0.6rem;
+  margin-bottom: 0.08rem;
+}
+.err-msg .title {
+  font-size: 0.18rem;
+}/*# sourceMappingURL=ErrMsg.css.map */

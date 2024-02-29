@@ -1,4 +1,4 @@
-import './MockDoc.scss';
+import './MockDoc.css';
 import React, { PureComponent as Component } from 'react';
 import PropTypes from 'prop-types';
 
@@ -28,7 +28,7 @@ class MockDoc extends Component {
     htmlData = arrToHtml(htmlData, this.props.doc);
     return (
       <div className="MockDoc">
-        {htmlData.map(function(item, i) {
+        {htmlData.map(function (item, i) {
           {
             /*//类型：Object  必有字段  备注：qwqwqw*/
           }
@@ -36,25 +36,25 @@ class MockDoc extends Component {
             var mes = [];
             item.mes.type
               ? mes.push(
-                  <span key={i} className="keymes">
-                    {' '}
-                    / /类型：{item.mes.type}
-                  </span>
-                )
+                <span key={i} className="keymes">
+                  {' '}
+                  / /类型：{item.mes.type}
+                </span>
+              )
               : '';
             item.mes.required
               ? mes.push(
-                  <span key={i + 1} className="keymes">
-                    必有字段
-                  </span>
-                )
+                <span key={i + 1} className="keymes">
+                  必有字段
+                </span>
+              )
               : '';
             item.mes.desc
               ? mes.push(
-                  <span key={i + 2} className="keymes">
-                    备注：{item.mes.desc}
-                  </span>
-                )
+                <span key={i + 2} className="keymes">
+                  备注：{item.mes.desc}
+                </span>
+              )
               : '';
           }
           return (
